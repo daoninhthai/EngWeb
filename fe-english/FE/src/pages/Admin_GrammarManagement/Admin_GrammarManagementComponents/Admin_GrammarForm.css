@@ -1,0 +1,68 @@
+.Admin_Grammar_Form {
+    display: flex;
+    justify-content: space-between;
+    border-left: 1px;
+    border-top: 0px;
+    border-right: 1px;
+    border-bottom: 0px;
+    border-color: #c4c4c4;
+    border-style: solid;
+    width: 100%;
+}
+
+.Admin_Grammar_Form_Port {
+    margin-top: 0px;
+    width: 90.9%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: fit-content;
+    padding-left: 4.55%;
+    padding-right: 4.55%;
+}
+
+.Admin_Grammar_Form .Admin_Grammar_Form_Title {
+    position: relative;
+    font-family: "Open Sans";
+    font-style: bold;
+    font-weight: 700;
+    width: fit-content;
+    color: black;
+    font-size: 14px;
+}
+
+.admin_grammar_form_layout {
+    display: flex;
+    text-align: center;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 300;
+    padding: 3%;
+}
+
+.Admin_Grammar_Form_UseCase {
+    padding-top: 10px;
+    border-top: 1px #c4c4c4 solid;
+    width: 30%;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+}
+
+.Admin_Grammar_Form_Usage {
+    border-top: 1px #c4c4c4 solid;
+    width: 40%;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.Admin_Grammar_Form_How {
+    border-top: 1px #c4c4c4 solid;
+    width: 30%;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 10px;
+}
+

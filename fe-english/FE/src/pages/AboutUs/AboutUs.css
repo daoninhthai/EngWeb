@@ -1,0 +1,74 @@
+
+.About {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f7f7f7;
+    overflow-x: hidden;
+    min-width: 1000px;
+    font-family: Open Sans;
+}
+
+.About .About_Header{
+    top:0px;
+    width: 100%;
+    height: 300px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.About .Content{
+    position: relative;
+    width: 100%;
+    height: 90%;
+    background-color: #f7f7f7;
+    padding-top: 20px;
+}
+
+.About .Content .Dock_Notification{
+    position: relative;
+    width: 100%;
+    height: 10%;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    background-color: gray;
+}
+
+.About .Content .Content_Row{
+    height: auto;
+    min-height: 80%;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 4%;
+    border-right: solid #3366ff 40px;
+    border-top: solid gray 1px;
+    border-left: solid gray 1px;
+    border-bottom: solid gray 1px;
+    margin-bottom: 10px;
+}
+
+.About .Content .Content_Row p {
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    top: 0px;
+    left: 0px;
+    line-height: 15px;
+    height: auto;
+    width: auto;
+}
+
+.About .Content .About_Footer{
+    position: relative;
+    background-color: darkorange;
+    height: 10%;
+    min-height: 10%;
+    width: 100%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    bottom: 0px;
+}

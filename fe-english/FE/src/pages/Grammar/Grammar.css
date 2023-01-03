@@ -1,0 +1,75 @@
+.Grammar {
+  
+    width   : 100%;
+    height  : 100%;
+    margin  : 0px;
+    padding : 0px;
+    background-color: lightgoldenrodyellow;
+}
+
+.Grammar .Grammar_Header {
+    top   : 0px;
+    width : 100%;
+    height: 100px;
+    bottom: 0px;
+    left  : 0px; 
+    
+}
+
+.Grammar .Dock_Notification {
+    margin-top: 20px;
+    width: 45%;
+    height: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 0 50px 50px 0;
+            padding-left: 15px;
+    display: flex;
+    align-items: center;
+    background-color: gray;
+}
+
+.Grammar .Grammar_Main_Port {
+    position           : relative;
+    margin-top         : 100px;
+    height             : fit-content;
+    border-color       : #c4c4c4;
+    border-style       : solid;
+  
+    border-right-width : 1px;
+    border-bottom-width: 1px;
+    border-left-width  : 1px;
+    border-top-width   : 1px;
+    left               : 6%;
+    width              : 88%;
+  height: 80%;
+    background         : aqua;
+    border-radius: 20px;
+    
+}
+
+.Grammar .Description {
+    position: relative;
+    left    : 4%;
+    width   : 92%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.Grammar_Category_Port {
+    position           : relative;
+    left               : 4%;
+    width              : 92%;
+
+    height             : fit-content;
+    background-position: center;
+    background-repeat  : no-repeat;
+    
+}
+
+.Grammar_Footer {
+    background-color: lightgoldenrodyellow;
+    margin-top      : 100px;
+    position        : relative;
+}

@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+
+.Admin_Grammar_Detail_Title .Title {
+    position: relative;
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    margin-left: 25%;
+    color: #ffffff;
+    background: #3366ff;
+}
+
+.Admin_Grammar_Detail_Title {
+    padding-top: 10px;
+    position: relative;
+    height: fit-content;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1100px) {
+    .Admin_Grammar_Detail_Title .Title {
+        font-size: 24px;
+        height: 40px;
+        line-height: 40px;
+    }
+}

@@ -1,0 +1,81 @@
+.Admin_Grammar_Form_Note {
+    width: 95.45%;
+    padding-top: 10px;
+    height: fit-content;
+    border-left: 1px;
+    border-top: 0px;
+    border-right: 1px;
+    border-bottom: 0px;
+    border-color: #c4c4c4;
+    border-style: solid;
+    padding-left: 4.55%;
+    display: flex;
+    justify-content: space-between;
+}
+.Admin_Grammar_Form_Note_Port {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 3%;
+    height: fit-content;
+}
+
+.Admin_Grammar_Form_Note .Admin_Grammar_Note_Content {
+    padding-left: 3%;
+    text-align: left;
+    position: relative;
+    line-height: 20px;
+    width: 100%;
+}
+
+.admin_decoration_note_text {
+    background: #3366ff;
+    position: relative;
+    font-family: "Open Sans";
+    font-style: bold;
+    font-weight: 700;
+    width: fit-content;
+    border: 1px;
+    border-style: solid;
+    border-color: #3366ff;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.Admin_Grammar_Form_Note_Btn_Group {
+    margin-right: 5%;
+    width: 65px;
+    display: flex;
+}
+
+.Admin_Grammar_Form_Note_Edit_Btn {
+    width: 25px;
+    height: 25px;
+    left: 0;
+}
+
+.Admin_Grammar_Form_Note_Edit_Btn:hover {
+    opacity: 90%;
+    cursor: pointer;
+}
+
+.Admin_Grammar_Form_Note_Edit_Btn:active {
+    opacity: 80%;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.Admin_Grammar_Form_Note_Delete_Btn {
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+}
+
+.Admin_Grammar_Form_Note_Delete_Btn:hover {
+    opacity: 90%;
+    cursor: pointer;
+}
+
+.Admin_Grammar_Form_Note_Delete_Btn:active {
+    opacity: 80%;
+    cursor: pointer;
+    border-radius: 20px;
+}

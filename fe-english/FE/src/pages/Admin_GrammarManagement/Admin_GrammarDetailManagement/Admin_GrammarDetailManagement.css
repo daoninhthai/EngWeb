@@ -1,0 +1,121 @@
+.Admin_Grammar_Detail_Management {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    min-width: 1200px;
+}
+
+.Admin_Grammar_Detail_Management_Header {
+    top: 0px;
+    width: 100%;
+    height: 100px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.Admin_Grammar_Detail_Management .Admin_Grammar_Management_Dock_Notification {
+    position: relative;
+    width: 100%;
+    height: 10%;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    background-color: gray;
+}
+
+.Admin_Grammar_Detail_Management_Main_Port {
+    top: 100px;
+    position: relative;
+    left: 15%;
+    width: 70%;
+    border-radius: 20px;
+    background-color: aqua;
+    height: fit-content;
+    background-repeat: no-repeat;
+    padding-top: 0px;
+    border: 1px #c4c4c4 solid;
+}
+
+.Admin_Grammar_Detail_Management_Horizontal_Menu_Bar_Main_Management_Port {
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.Admin_Grammar_Detail_Management_Port {
+    height: fit-content;
+    border: #c4c4c4 solid 1px;
+    border-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: 800px;
+}
+
+.Admin_Grammar_Detail_Management_Footer {
+    margin-top: 20px;
+    top: 100px;
+    position: relative;
+    bottom: 0px;
+    height: 10%;
+    width: 100%;
+}
+
+.Admin_Add_Grammar_Form_Port{
+    position: relative;
+    width: 100%;
+    padding-bottom: 10px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    color: #3366ff;
+    border-left: 1px;
+    border-right: 1px;
+    border-color: #c4c4c4;
+    border-top: 5px #3366ff;
+    border-bottom: 1px #c4c4c4;
+    border-style: solid;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+
+.Admin_Add_Grammar_Form_Port:hover {
+    box-shadow: 0px 0px 5px 1px #c4c4c4;
+}
+
+.Admin_Add_Grammar_Form_Button {
+    position: relative;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    color: #3366ff;
+    border: #c4c4c4 1px solid;
+    text-align: center;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin: auto;
+    user-select: none;
+}
+
+.Admin_Add_Grammar_Form_Button:hover {
+    background: #3366ff;
+    color: white;
+    border: #3366ff 1px solid;
+}
+
+.Admin_Add_Grammar_Form_Button:active {
+    background: #3366ff;
+    color: white;
+    border: white 1px solid;
+}

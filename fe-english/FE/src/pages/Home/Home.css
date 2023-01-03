@@ -1,0 +1,117 @@
+
+.Home{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f7f7f7;
+    overflow-x: hidden;
+    min-width: 1000px;
+    font-family: Open Sans;
+}
+
+.Home .Home_Header{
+    top:0px;
+    width: 100%;
+    
+    bottom: 0px;
+    left: 0px;
+}
+.content-card{
+    background-color: lightgoldenrodyellow;
+}
+.Home .Content .Dock_Notification{
+    position: relative;
+    width: 100%;
+    height: 10%;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    
+}
+
+.Home .Content{
+    position: relative;
+    width: 100%;
+    height: 120%;
+    background-color: lightgoldenrodyellow;
+   
+}
+.title{
+    margin: 0 auto;
+}
+
+.Home .Content .Content_Row{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;    
+    height: auto;
+   
+    width: 100%;
+  
+    
+
+}
+
+.Content_Row *{
+    background-color: #58cc02;
+    border-radius: 20px;
+   
+    
+}
+.Content_Row * a :hover{
+    text-decoration: none;
+}
+.content-card{
+   padding:20px 150px 20px 150px !important ;
+   width: 60%;
+   margin: 0 auto;
+  
+    
+}
+.Home .Content .Notice {
+    position: relative;
+    height: auto;
+    width: 85%;
+    margin-left: 5%;
+    border-top: solid rgb(110, 234, 9) 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: solid rgb(110, 234, 9) 1px;
+}
+
+.Home .Content .Notice p {
+    position: relative;
+    font-family: Barlow Condensed;
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    margin: 0px;
+    top: 0px;
+    left: 0px;
+}
+
+.Home .Content .Home_Footer{
+    position: relative;
+    bottom: 0px;
+    background-color: darkorange;
+    height: 10%;
+    width: 100%;
+}
+
+.Home .Content .Content_Row .Item{
+    
+    box-sizing: border-box;
+    list-style: none;
+    text-align: center;
+    width: 25%;
+    height: 240px;
+    margin-top: 5%;
+    margin-left: 1%;
+    margin-bottom: 5%;
+}

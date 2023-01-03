@@ -1,0 +1,32 @@
+.Header_Wrapper {
+ 
+
+    background-size: cover;
+    position: relative;
+    width: 100%;
+   
+    text-decoration-color: black;
+    box-sizing: border-box;
+    
+    background-color: rgb(41, 55, 73);
+
+}
+.Header_Logo img{
+    width: 70px;
+    height: 70px;
+}
+.Header_Navigation {
+    display :flex
+}
+.Header_Item{
+    display:flex
+}
+.item-menu{
+    display: flex;
+    font-weight: 700;
+    font-size: 18px;
+}
+.login{position: absolute;
+  right: 20px;
+  top: 15px;
+}

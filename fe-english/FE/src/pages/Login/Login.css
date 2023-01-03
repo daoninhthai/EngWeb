@@ -1,0 +1,148 @@
+.Login {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(226, 166, 55);
+    width: 100%;
+    height: 100%;
+    min-width: 1000px;
+}
+
+.Login .Content {
+    position: relative;
+    width: 80%;
+    height: 60%;
+    background-color: #aeda7e;
+    background-repeat: no-repeat;
+    background-image: url("bg.png");
+    background-position: start center;
+    top: 20%;
+    left: 10%;
+    right: 10%;
+    bottom: 20%;
+}
+.LeftSide p{
+    padding-top: 340px;
+    font-size: 18px;
+    padding-left: 120px;
+}
+.Login .Content .LeftSide {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    font-family: Barlow Condensed;
+    font-size: 14;
+    color: white;
+}
+
+.Login .Content .LeftSide  p {
+    margin: 10px;
+}
+
+.Login .Content .RightSide {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    right: 0px;
+    background-color: white;
+    color: black;
+}
+
+.Login .Content .RightSide .Right_Bound {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    bottom: 5%;
+    left: 5%;
+    right: 5%;
+    border-radius: 5%;
+    border: solid 1px gray;
+}
+
+.Login .Content .RightSide .Right_Bound .Top_Nav {
+    position: relative;
+    /* margin: 5%; */
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    height: 10%;
+}
+
+.Login .Content .RightSide .Right_Bound .Top_Nav .Login_Button {
+    position: absolute;
+    font-family: Barlow Condensed;
+    font-size: 20px;
+    left: 5%;
+    width: 45%;
+    height: 100%;
+}
+
+.Login .Content .RightSide .Right_Bound .Top_Nav .SignUp_Button {
+    position: absolute;
+    font-family: Barlow Condensed;
+    font-size: 20px;
+    width: 45%;
+    height: 100%;
+    left: 50%;
+}
+
+.Login .Content .RightSide .Right_Bound .Form {
+    position: relative;
+    height: 90%;
+    flex-direction: column;
+    border-radius: 0px 0px 5% 5%;
+}
+
+.Login .Content .RightSide .Right_Bound .Form .Login-Form {
+    position: relative;
+    display: flex !important;
+    flex-direction: column;
+    width: 90%;
+    height: max-content;
+    background-color: white;
+    top: 10px;
+    left: 5%;
+    right: 5%;
+}
+
+.Login .Content .RightSide .Right_Bound .Form .Login-Form input{
+    position: relative;
+    margin-bottom: 10px;
+    min-height: 30px;
+    padding-left: 10px;
+    font-family: Barlow;
+    font-size: 14px;
+    border-radius: 20px;
+    background-color: transparent !important; 
+    background: none !important;
+}
+
+.Login .Content .RightSide .Right_Bound .Form .Login-Form label {
+    color: red;
+    margin-top: 0px !important;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.Login .Content .RightSide .Right_Bound .Form .Login-Form a {
+    position: relative;
+    margin-bottom: 10px;
+    color: #3366ff;
+}
+
+.Login .Content .RightSide .Right_Bound .Form .Login-Form button {
+    position: relative;
+    align-self: center;
+    font-family: Barlow Condensed;
+    min-height: 30px;
+    min-width: 100px;
+    background-color: #3366ff;
+    color: white;
+    font-size: 18px;
+}
+
+.Login .Content .RightSide .Right_Bound .Form .Login-Form button:hover {
+    border: solid 1px gray;
+}

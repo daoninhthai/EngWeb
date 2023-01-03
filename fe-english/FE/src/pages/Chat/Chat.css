@@ -1,0 +1,257 @@
+
+.Chat{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+    overflow-x: hidden;
+    min-width: 1000px;
+    font-family: Open Sans;
+  
+}
+
+.Chat .Chat_Header{
+    top:0px;
+    width: 100%;
+    height: 80px;
+    bottom: 0px;
+    left: 0px;
+    
+}
+
+.Chat .Content .Chat_Title {
+    text-align: start;
+    margin-left: 20px;
+    margin-right: 700px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 0 50px 50px 0;
+    background-color: #3366ff;
+    color: #f7f7f7;
+    height: 50px;
+}
+
+.Chat .Content .Dock_Notification{
+    position: relative;
+    margin-top: 20px;
+    width: 45%;
+    height: 10%;
+    border-radius: 0 50px 50px 0;
+            padding-left: 15px;
+    display: flex;
+    align-items: center;
+    background-color: gray;
+}
+
+.Chat .Content{
+    position: relative;
+    width: 100%;
+    height: 90%;
+   
+    padding-top: 20px;
+}
+
+.Chat .Content .Content_Row{
+
+    display: inline-block;
+    height: auto;
+    min-height: 65%;
+    width: 90%;
+    margin-left: 4%;
+    
+    border-top: solid gray 1px;
+    border-left: solid gray 1px;
+    border-bottom: solid gray 1px;
+}
+
+.Chat .Content .Content_Row .LeftSide {
+    
+    text-align: left;
+    margin-left: 5px;
+    padding: 5px;
+    height: 18%;
+    font-family: Barlow Condensed;
+}
+
+.Chat .Content .Content_Row .LeftSide .delete, img {
+    width: 20px;
+    height: 20px;
+    margin:10px;
+}
+
+
+.Chat .Content .Content_Row .LeftSide .time {
+ 
+    color:gray;
+    font-size: 12px;
+}
+.user_sent{
+    font-size: 18px;
+
+   
+    
+} 
+.Chat .Content .Content_Row .LeftSide .content {
+    
+    background-color: gray;
+    color: white;
+    font-size: 16px;
+    padding: 3px;
+ 
+    font-size: 16px;
+   
+}
+
+.Chat .Content .Content_Row .RightSide {
+    text-align: right;
+    margin-right: 5px;
+    height: 18%;
+    font-family: Barlow Condensed;
+    color: #3366ff;
+}
+
+.Chat .Content .Content_Row .RightSide  .time {
+   font-size: 12px;
+    color:gray
+}
+
+.Chat .Content .Content_Row .RightSide .content {
+  
+    color: black;
+    padding:  3px;
+   
+    font-size: 16px;
+}
+
+.Chat .Content .Notice {
+    position: relative;
+    height: auto;
+    width: 85%;
+    margin-left: 5%;
+    border-top: solid #3366ff 2px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: solid gray 1px;
+}
+
+.Chat .Content .Notice section {
+    position: relative;
+    font-family: Barlow Condensed;
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    margin: 0px;
+    top: 0px;
+    left: 0px;
+}
+
+.Chat .Content .Chat_Footer{
+    position: relative;
+    bottom: 0px;
+    background-color: darkorange;
+    height: 10%;
+    width: 100%;
+}
+
+.Chat .Content .Content_Row .Item{
+    box-sizing: border-box;
+    list-style: none;
+    text-align: center;
+    width: 25%;
+    height: 240px;
+    margin-top: 5%;
+    margin-left: 1%;
+    margin-bottom: 5%;
+}
+
+.Chat .Content{
+    position: relative;
+    width: 100%;
+  
+    height: 90%;
+    background-color: #f7f7f7;
+    padding-top: 20px;
+}
+
+.Chat .Content .Dock_Notification{
+    position: relative;
+    width: 100%;
+    height: 10%;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    background-color: gray;
+}
+
+.Chat .Content .Content_Row{
+    height: 80%;
+    width: 60%;
+    margin-top: 10px;
+    margin-left: 20%;
+    border-radius: 20px;
+   border: 2px solid blue;
+    
+    
+    overflow-y: scroll;
+    background-color: aqua;
+}
+
+.Chat .Content .Content_Row::-webkit-scrollbar {
+    display: none;
+  }
+
+.Chat_Send {
+    width: 60%;
+    height: 10%;
+    margin-left: 20%;
+    margin-bottom: 10px;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.Chat_Send .Chat_Input {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    resize: none;
+    background-color: transparent !important; 
+    background: none !important;
+    border-right: solid #3366ff 1px;
+    border-top: solid gray 1px;
+    border-left: solid gray 1px;
+    border-bottom: solid gray 1px;
+    /* border-radius: 5%; */
+    margin-right: 2px;
+    border-radius: 20px 0 0 20px;
+}
+
+.Chat_Send .Send {
+    position: relative;
+    resize: none;
+    width: 20%;
+    height: 70%;
+    background: #3366ff;
+    border-right: solid gray 1px;
+    border-top: solid gray 1px;
+    border-left: solid gray 1px;
+    border-bottom: solid gray 1px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 0 20px 20px 0;
+}
+
+.Chat .Content .Chat_Footer{
+    position: relative;
+    background-color: darkorange;
+    height: 10%;
+    min-height: 10%;
+    width: 100%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    bottom: 0px;
+}
