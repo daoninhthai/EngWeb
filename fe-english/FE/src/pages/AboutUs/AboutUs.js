@@ -25,7 +25,7 @@ class AboutUs extends Component{
                         <p>CÔNG TY LEARNING ENGLISH VIỆT NAM <br></br>
                             <br></br> Số GCNĐKDN: 2500150335 <br></br>
                             <br></br>Cấp lần đầu: 26/03/2007 <br></br>
-                            <br></br> Đăng ký thay đổi lần thứ 16: 07/05/2022 <br></br>
+                            <br></br> Đăng ký thay đổi lần thứ 23: 29/01/1999 <br></br>
                             <br></br>Cơ quan cấp: Sở kế hoạch và đầu tư tp Hà Nội <br></br>
                             <br></br>Địa chỉ: Đại Học Thủy lợi <br></br>
                             <br></br>Tel: 0337557590 </p>
