@@ -14,7 +14,7 @@ class AdminMenu extends Component {
                 "currentPassword": null,
                 "newPassword": null
             },
-            avatarUrl: "https://i.imgur.com/q54xYo3.png"
+            avatarUrl: "https://www.duolingo.com/images/facebook/duo200.png"
         }
     }
 

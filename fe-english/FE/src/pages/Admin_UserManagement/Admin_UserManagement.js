@@ -120,7 +120,7 @@ class Admin_UserManagement extends Component {
                 <UserItem
                 key = {item.userID}
                     id={item.userID}
-                    avatar_url="https://i.imgur.com/q54xYo3.png"
+                    avatar_url="https://i.pinimg.com/originals/12/e0/4d/12e04d6c2e9c734b3bd841414ad20a1f.png"
                     display_name={item.displayName}
                     user_name={item.userName}
                     gmail={item.email}

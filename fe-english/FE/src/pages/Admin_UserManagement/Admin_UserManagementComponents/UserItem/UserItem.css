@@ -18,6 +18,7 @@
     object-fit: cover;
     width     : 80px;
     height    : 80px;
+    border-radius: 10px;
 }
 
 .User_Item .User_Item_User_Name_Gmail_Port {
@@ -30,7 +31,9 @@
 .User_Item_Left_Port {
     display: flex;
 }
-
+.User_Item_Avatar_Port{
+    height: 100%;
+}
 .User_Item_Display_Name {
     display      : flex;
     position     : relative;

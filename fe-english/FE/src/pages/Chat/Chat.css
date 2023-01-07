@@ -77,7 +77,7 @@
     font-family: Barlow Condensed;
 }
 
-.Chat .Content .Content_Row .LeftSide .delete, img {
+.Chat .Content .Content_Row .LeftSide .delete {
     width: 20px;
     height: 20px;
     margin:10px;

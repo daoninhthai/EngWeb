@@ -130,6 +130,7 @@
     width: 80px;
     background: #000;
     background-origin: border-box;
+     border-radius: 10px;
 }
 
 .Admin_User_Detail_Management .User_Menu .User_Menu_User_Info_Port .User_Info_Port .User_Name_Gmail_Port {
@@ -142,6 +143,7 @@
     position: absolute;
     min-width: 100%;
     min-height: 100%;
+    
 }
 
 .Admin_User_Detail_Management .User_Menu .User_Name {

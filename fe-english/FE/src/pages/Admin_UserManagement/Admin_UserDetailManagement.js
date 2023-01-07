@@ -87,7 +87,7 @@ class Admin_UserDetailManagement extends Component {
             "isUpdateInfo": true,
             "isChangePass": false,
             "isChangeRemind": false,
-            "avatar_URL": "https://i.imgur.com/q54xYo3.png",
+            "avatar_URL": "https://i.pinimg.com/originals/12/e0/4d/12e04d6c2e9c734b3bd841414ad20a1f.png",
             "user_ID": "",
             "password_length": 10,
             "isLoadDone": false,
