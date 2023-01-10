@@ -9,11 +9,13 @@
     justify-content: space-between;
     margin-bottom  : 10px;
 }
-
+.popup-overlay{background-color: aqua !important;}
 .User_Item:hover {
     box-shadow: 0px 0px 5px 1px #c4c4c4;
 }
-
+.popup-content {
+    width: 100% !important;
+}
 .User_Item .User_Item_Avatar {
     object-fit: cover;
     width     : 80px;

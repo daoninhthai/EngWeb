@@ -5,7 +5,17 @@
     text-align: left;
     padding: 5px;
 }
-
+.popup-overlay{
+    position: static !important;
+}
+.popup-content{
+    height: 150px;
+    background-color: aqua !important;
+}
+.microphone-icon-container img{
+    height: 20px;
+    width: 20px;
+}
 .EnglishWordItem .LeftSide {
     position: relative;
     display: flex;

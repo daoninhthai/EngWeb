@@ -40,7 +40,7 @@ class UserItem extends Component {
             }
         })
             .then(response => {
-                response.json();
+                // response.json();
                 console.log(response);
 
                 //bug 403 but OK
@@ -82,7 +82,7 @@ class UserItem extends Component {
             }
         })
             .then(response => {
-                response.json();
+                // response.json();
                 console.log(response);
 
                 //bug 403 but OK
@@ -199,6 +199,7 @@ class UserItem extends Component {
                                 <button className="Blue_Button" onClick={(e) => this.handleBanUser(e)}>
                                     Verify
                                 </button>
+                                
                                 <button className="Red_Button" onClick={this.closeVerifyBannedPopupHandler}>
                                     Cancel
                                 </button>

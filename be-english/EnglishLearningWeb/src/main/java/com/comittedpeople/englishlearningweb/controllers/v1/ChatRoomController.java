@@ -51,8 +51,8 @@ public class ChatRoomController {
 	@PostMapping
 	public ResponseEntity<ChatRoomMessageDTO> postMessage (@Valid @RequestBody String message){
 		
-		//Làm gì làm phải xử lý info mà user đẩy lên đã. 
-		//1. Xoá trường ID đi.
+
+		//1. Xoá trường ID .
 		//2. UserID bắt buộc phải là User hiện tại.
 		
 		ChatRoomMessageDTO chatRoomMessageDTO = new ChatRoomMessageDTO();

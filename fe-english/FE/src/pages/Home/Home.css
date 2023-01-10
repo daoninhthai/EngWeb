@@ -18,6 +18,10 @@
     bottom: 0px;
     left: 0px;
 }
+.Icon img{
+    margin-top: 10px;
+    margin-left: 10px;
+}
 .content-card{
     background-color: lightgoldenrodyellow;
 }

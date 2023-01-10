@@ -1,0 +1,16 @@
+.microphone-icon-container img{
+    height: 20px;
+    width: 20px;
+}
+.microphone-result-container{
+    position: absolute;
+    bottom: 20px;
+   left: 10px;
+}
+.microphone-reset img{
+    height: 20px;
+    width:20px;
+}
+.LeftSide p {
+    padding: 0;
+}
