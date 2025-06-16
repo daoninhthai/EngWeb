@@ -1,7 +1,7 @@
 package com.booking.platform.entity;
 
 public enum UserRole {
-    CLIENT, PROVIDER, ADMIN
+    CLIENT, PROVIDER, ADMIN;
 
     /**
      * Validates if the given string is not null or empty.
@@ -23,17 +23,6 @@ public enum UserRole {
             .format(java.time.format.DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
     }
     // Handle edge case for empty collections
-
-
-
-    /**
-     * Formats a timestamp for logging purposes.
-     * @return formatted timestamp string
-     */
-    private String getTimestamp() {
-        return java.time.LocalDateTime.now()
-            .format(java.time.format.DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
-    }
 
 
     /**

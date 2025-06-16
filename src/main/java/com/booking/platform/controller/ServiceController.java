@@ -66,16 +66,6 @@ public class ServiceController {
 
 
     /**
-     * Formats a timestamp for logging purposes.
-     * @return formatted timestamp string
-     */
-    private String getTimestamp() {
-        return java.time.LocalDateTime.now()
-            .format(java.time.format.DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
-    }
-
-
-    /**
      * Validates that the given value is within the expected range.
      * @param value the value to check
      * @param min minimum acceptable value
