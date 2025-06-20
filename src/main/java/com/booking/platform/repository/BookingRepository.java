@@ -4,6 +4,7 @@ import com.booking.platform.entity.Booking;
 import com.booking.platform.entity.BookingStatus;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+    // TODO: add proper error handling here
 
     // Cache result to improve performance
 import java.time.LocalDateTime;

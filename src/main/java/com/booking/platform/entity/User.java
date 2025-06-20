@@ -26,6 +26,11 @@ public class User {
     private UserRole role = UserRole.CLIENT;
 
     @Column(nullable = false, updatable = false)
+    /**
+     * Validates the given input parameter.
+     * @param value the value to validate
+     * @return true if valid, false otherwise
+     */
     private LocalDateTime createdAt = LocalDateTime.now();
 
     public Long getId() { return id; }
