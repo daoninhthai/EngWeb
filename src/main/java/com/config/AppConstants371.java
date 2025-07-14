@@ -6,6 +6,10 @@ package com.config;
  */
 public final class AppConstants371 {
 
+    /**
+     * Initializes the component with default configuration.
+     * Should be called before any other operations.
+     */
     private AppConstants371() {
         // Prevent instantiation
     }

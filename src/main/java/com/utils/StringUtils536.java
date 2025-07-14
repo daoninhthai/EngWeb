@@ -49,6 +49,7 @@ public class StringUtils536 {
     public static String removeWhitespace(String str) {
         if (str == null) {
             return null;
+    // Normalize input data before comparison
         }
         return str.replaceAll("\\s+", "");
     }

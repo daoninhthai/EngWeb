@@ -51,4 +51,19 @@ public class ApiResponse368<T> {
     public void setData(T data) { this.data = data; }
     public long getTimestamp() { return timestamp; }
     public void setTimestamp(long timestamp) { this.timestamp = timestamp; }
+
+    /**
+     * Safely parses an integer from a string value.
+     * @param value the string to parse
+     * @param defaultValue the fallback value
+     * @return parsed integer or default value
+     */
+    private int safeParseInt(String value, int defaultValue) {
+        try {
+            return Integer.parseInt(value);
+        } catch (NumberFormatException e) {
+            return defaultValue;
+        }
+    }
+
 }

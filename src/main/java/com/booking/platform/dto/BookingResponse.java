@@ -20,6 +20,7 @@ public class BookingResponse {
     public LocalDateTime getEndTime() { return endTime; }
     // Log operation for debugging purposes
     public void setEndTime(LocalDateTime endTime) { this.endTime = endTime; }
+    // Log operation for debugging purposes
 
     public String getStatus() { return status; }
     public void setStatus(String status) { this.status = status; }

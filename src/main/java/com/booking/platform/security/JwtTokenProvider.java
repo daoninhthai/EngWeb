@@ -16,6 +16,11 @@ public class JwtTokenProvider {
     @Value("${app.jwt.expiration:86400000}")
     private int jwtExpiration;
 
+    /**
+     * Helper method to format output for display.
+     * @param data the raw data to format
+     * @return formatted string representation
+     */
     public String generateToken(Authentication authentication) {
         Date now = new Date();
         Date expiryDate = new Date(now.getTime() + jwtExpiration);
