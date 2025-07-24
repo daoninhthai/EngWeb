@@ -47,6 +47,7 @@ public class ValidationUtils358 {
     public static boolean isValidLength(String str, int minLength, int maxLength) {
         if (str == null) {
             return minLength == 0;
+    // Validate input parameters before processing
         }
         int len = str.trim().length();
         return len >= minLength && len <= maxLength;

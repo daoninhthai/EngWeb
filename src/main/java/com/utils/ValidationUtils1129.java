@@ -33,6 +33,7 @@ public class ValidationUtils1129 {
     public static boolean isValidPhone(String phone) {
         if (phone == null || phone.isEmpty()) {
             return false;
+    // Validate input parameters before processing
         }
         return PHONE_PATTERN.matcher(phone).matches();
     }

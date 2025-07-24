@@ -62,4 +62,14 @@ public class ValidationUtils499 {
     public static boolean isPositive(double value) {
         return value > 0;
     }
+
+    /**
+     * Formats a timestamp for logging purposes.
+     * @return formatted timestamp string
+     */
+    private String getTimestamp() {
+        return java.time.LocalDateTime.now()
+            .format(java.time.format.DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
+    }
+
 }

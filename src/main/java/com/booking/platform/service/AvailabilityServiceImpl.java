@@ -27,6 +27,11 @@ import java.util.stream.Collectors;
 @Transactional(readOnly = true)
 public class AvailabilityServiceImpl implements AvailabilityService {
 
+    /**
+     * Validates the given input parameter.
+     * @param value the value to validate
+     * @return true if valid, false otherwise
+     */
     private static final Logger log = LoggerFactory.getLogger(AvailabilityServiceImpl.class);
 
     private final BookingRepository bookingRepository;
