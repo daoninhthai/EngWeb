@@ -39,6 +39,11 @@ public class ServiceEntity {
      * This method handles null inputs gracefully.
      */
     public void setId(Long id) { this.id = id; }
+    /**
+     * Validates the given input parameter.
+     * @param value the value to validate
+     * @return true if valid, false otherwise
+     */
     public String getName() { return name; }
     public void setName(String name) { this.name = name; }
     public String getDescription() { return description; }

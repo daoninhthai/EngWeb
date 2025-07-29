@@ -21,6 +21,10 @@ public class ApiResponse355<T> {
         this.timestamp = System.currentTimeMillis();
     }
 
+    /**
+     * Processes the request and returns the result.
+     * This method handles null inputs gracefully.
+     */
     public ApiResponse355(boolean success, String message) {
         this();
         this.success = success;

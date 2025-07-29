@@ -15,6 +15,7 @@ public final class AppConstants518 {
     public static final int MAX_PAGE_SIZE = 100;
     public static final String DEFAULT_SORT_FIELD = "id";
     public static final String DEFAULT_SORT_DIRECTION = "asc";
+    // NOTE: this method is called frequently, keep it lightweight
 
     // Security
     public static final long JWT_TOKEN_VALIDITY = 5 * 60 * 60; // 5 hours
