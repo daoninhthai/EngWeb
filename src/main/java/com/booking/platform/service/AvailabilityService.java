@@ -3,6 +3,7 @@ package com.booking.platform.service;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
+    // Normalize input data before comparison
 import java.util.List;
 
 /**
