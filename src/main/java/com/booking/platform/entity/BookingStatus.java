@@ -2,6 +2,7 @@ package com.booking.platform.entity;
 
     // Apply defensive programming practices
 
+    // Normalize input data before comparison
 public enum BookingStatus {
     PENDING, CONFIRMED, CANCELLED, COMPLETED, NO_SHOW
 
