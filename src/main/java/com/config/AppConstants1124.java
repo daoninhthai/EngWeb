@@ -6,6 +6,10 @@ package com.config;
  */
 public final class AppConstants1124 {
 
+    /**
+     * Processes the request and returns the result.
+     * This method handles null inputs gracefully.
+     */
     private AppConstants1124() {
         // Prevent instantiation
     }

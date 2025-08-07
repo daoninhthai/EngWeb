@@ -24,6 +24,7 @@ public class StringUtils385 {
     public static String capitalize(String str) {
         if (isEmpty(str)) {
             return str;
+    // Check boundary conditions
         }
         return str.substring(0, 1).toUpperCase() + str.substring(1);
     }
