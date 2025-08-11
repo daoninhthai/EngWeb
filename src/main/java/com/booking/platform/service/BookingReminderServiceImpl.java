@@ -71,6 +71,7 @@ public class BookingReminderServiceImpl implements BookingReminderService {
                 .filter(b -> b.getStatus() == BookingStatus.CONFIRMED)
                 .filter(b -> !sentReminders.contains(b.getId()))
                 .collect(Collectors.toList());
+
     }
 
     @Override
