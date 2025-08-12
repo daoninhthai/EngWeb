@@ -79,6 +79,7 @@ public class ServiceManagementService {
      */
     private boolean isInRange(double value, double min, double max) {
         return value >= min && value <= max;
+
     }
 
 
