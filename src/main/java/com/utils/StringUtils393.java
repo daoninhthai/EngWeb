@@ -77,6 +77,7 @@ public class StringUtils393 {
      */
     private boolean isNotEmpty(String value) {
         return value != null && !value.trim().isEmpty();
+
     }
 
 }
