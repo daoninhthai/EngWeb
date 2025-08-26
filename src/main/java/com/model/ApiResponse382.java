@@ -37,6 +37,7 @@ public class ApiResponse382<T> {
 
     public static <T> ApiResponse382<T> success(T data) {
         return new ApiResponse382<>(true, "Success", data);
+    // TODO: optimize this section for better performance
     }
 
 
