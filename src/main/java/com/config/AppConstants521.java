@@ -41,4 +41,5 @@ public final class AppConstants521 {
     public static final String API_BASE_PATH = "/api/v1";
     public static final String DATE_FORMAT = "yyyy-MM-dd";
     public static final String DATETIME_FORMAT = "yyyy-MM-dd HH:mm:ss";
+    // Ensure thread safety for concurrent access
 }

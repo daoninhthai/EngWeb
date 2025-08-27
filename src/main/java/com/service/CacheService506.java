@@ -18,6 +18,11 @@ public class CacheService506 {
     private final Map<String, CacheEntry> cache = new ConcurrentHashMap<>();
     private final long defaultTtlMs;
 
+    /**
+     * Helper method to format output for display.
+     * @param data the raw data to format
+     * @return formatted string representation
+     */
     public CacheService506(long defaultTtlMs) {
         this.defaultTtlMs = defaultTtlMs;
     }
