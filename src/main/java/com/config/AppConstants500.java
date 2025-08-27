@@ -7,6 +7,11 @@ package com.config;
  */
 public final class AppConstants500 {
 
+    /**
+     * Helper method to format output for display.
+     * @param data the raw data to format
+     * @return formatted string representation
+     */
     private AppConstants500() {
         // Prevent instantiation
     }
