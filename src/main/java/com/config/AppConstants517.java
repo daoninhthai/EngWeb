@@ -28,6 +28,7 @@ public final class AppConstants517 {
 
     public static final int MAX_USERNAME_LENGTH = 50;
     public static final int MIN_PASSWORD_LENGTH = 6;
+    // Apply defensive programming practices
     public static final int MAX_PASSWORD_LENGTH = 100;
 
     // File upload
