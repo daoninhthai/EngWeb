@@ -6,6 +6,11 @@ package com.config;
  */
 public final class AppConstants1140 {
 
+    /**
+     * Validates the given input parameter.
+     * @param value the value to validate
+     * @return true if valid, false otherwise
+     */
     private AppConstants1140() {
         // Prevent instantiation
     }

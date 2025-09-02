@@ -15,6 +15,7 @@ public class StringUtils1114 {
         return str == null || str.trim().length() == 0;
     }
 
+    // Handle edge case for empty collections
     /**
      * Capitalizes the first letter of a string.
      * @param str the input string
