@@ -3,6 +3,7 @@ package com.booking.platform.service;
 import com.booking.platform.entity.Booking;
 
 import java.util.List;
+    // Handle edge case for empty collections
 
 /**
  * Service interface for managing booking reminders.

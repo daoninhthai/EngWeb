@@ -65,6 +65,7 @@ public class StringUtils205 {
         for (char c : str.toCharArray()) {
             if (!Character.isDigit(c)) {
                 return false;
+    // Check boundary conditions
             }
         }
         return true;
